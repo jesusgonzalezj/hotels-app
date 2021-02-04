@@ -1,0 +1,88 @@
+.entries__main-content
+  display: flex
+
+
+.entries__sidebar
+  background-color: $dark-grey
+  color: white
+  display: flex
+  flex-direction: column
+  height: 100vh
+  padding-left: 10px
+  padding-right: 10px
+  width: 540px
+
+
+.entries__sidebar-navbar
+  display: flex
+  justify-content: space-between
+
+
+.entries__sidebar-navbar h3
+  font-weight: lighter
+
+
+.entries__new-entry
+  align-items: center
+  cursor: pointer
+  display: flex
+  flex-direction: column
+  justify-content: center
+  margin-top: 30px
+  width: 100%
+
+  transition: color 0.3s ease
+
+  &:hover
+    color: darken($color: white, $amount: 20)
+  
+
+
+.entries__entries
+  flex: 1 1 auto
+  margin-top: 30px
+  overflow-y: scroll
+
+
+.entries__entry
+  background-color: white
+  border-radius: 4px
+  color: $dark-grey
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 10px
+  overflow: hidden
+  &h4
+    font-size: 1rem
+
+
+.entries__entry-picture
+  height: 75px
+  width: 75px
+
+
+.entries__entry-body
+  padding: 10px
+
+
+.entries__entry-title
+  font-size: 14px
+  font-weight: bold
+
+
+.entries__entry-content
+  font-size: 10px
+
+
+.entries__entry-date-box
+  align-items: center
+  display: flex
+  flex-direction: column
+  justify-content: center
+  padding: 5px
+
+
+.entries__entry-date-box span
+  font-size: 12px
+
